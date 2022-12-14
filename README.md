@@ -2,8 +2,8 @@
 ### Vulnerable dockerized Spring Boot Application
 
 This is a vulnerable Spring Boot application that is used to demonstrate the Text4Shell vulnerability. <br>
+More information can be found [here](https://nvd.nist.gov/vuln/detail/CVE-2022-42889) <br>
 Run the application using the following command:
-
 ```bash
 docker build -t text4shell_app .
 docker run -p 8080:8080 text4shell_app
