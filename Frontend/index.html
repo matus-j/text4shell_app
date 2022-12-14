@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <title>Exploit REST Test</title>
+</head>
+<body>
+
+    <div>
+        <h4>Text4Shell Demo Application</h4>
+        <p>The search will be URL-encoded automatically.</p>
+        <textarea id="searchBar" cols="50" rows="10" placeholder="Type here...">${dns:address|www.google.com}</textarea>
+        <p id="interpolated">The result after the interpolation will be displayed here.</p>
+        <Button id="searchButton">Search</Button>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
