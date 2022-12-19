@@ -21,7 +21,7 @@ RUN mvn clean package
 FROM alpine:3.12 as final
 
 # Install bash and netcat
-RUN apk add --update bash netcat-openbsd openjdk11
+RUN apk add --update bash nmap-ncat openjdk11
 
 # Set the working directory to /app
 WORKDIR /app
